@@ -7,11 +7,11 @@ import classes from "./Header.module.css";
 const Header = (props) => {
   return (
     <Fragment>
-      <header class={classes.header}>
+      <header className={classes.header}>
         <h1>Foodoo</h1>
         <HeaderCartButton />
       </header>
-      <div class={classes["main-image"]}>
+      <div className={classes["main-image"]}>
         <img src={mealsImage} alt="A table full of delecious food!" />
       </div>
     </Fragment>
